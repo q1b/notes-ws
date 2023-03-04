@@ -33,4 +33,4 @@ app.ws("/:document", (websocket, request) => {
 })
 
 // Start the server
-app.listen(1234, () => console.log("Listening on http://127.0.0.1:1234"))
+app.listen(1234, () => console.log("Listening on http://0.0.0.0:1234"))
