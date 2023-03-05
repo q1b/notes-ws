@@ -52,6 +52,6 @@ const server = Server.configure({
   // },
 })
 
-// server.enableMessageLogging()
+server.enableMessageLogging()
 
 server.listen()
